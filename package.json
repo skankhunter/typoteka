@@ -20,5 +20,8 @@
   "homepage": "https://github.com/skankhunter/typoteka#readme",
   "devDependencies": {
     "eslint": "6.8.0"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0"
   }
 }
