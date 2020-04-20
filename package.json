@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm run eslint",
     "eslint": "eslint --ext .js src/",
-    "start": "node ./src/service/service.js"
+    "start": "node ./src/service/service.js",
+    "server": "nodemon ./src/main.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/skankhunter/typoteka#readme",
   "devDependencies": {
-    "eslint": "6.8.0"
+    "eslint": "6.8.0",
+    "nodemon": "2.0.3"
   },
   "dependencies": {
     "chalk": "^4.0.0"
